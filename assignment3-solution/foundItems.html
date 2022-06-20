@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Short Name</th>
+        <th>Description</th>
+        <th>Remove</th>
+    </tr>
+    <tr>
+        <th>{{item.name}}</td>
+        <td>{{item.short_name}}</td>
+        <td>{{item.description}}</td>
+        <td><input type=button value="Remove Item From List!" 
+            ng-click="$showList.onRemove{{index:$index}}"></td>
+    </tr>
+</table>
